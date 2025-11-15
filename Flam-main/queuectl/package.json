@@ -1,0 +1,21 @@
+{
+  "name": "queuectl",
+  "version": "1.0.0",
+  "description": "CLI-based background job queue system with workers, retries, and Dead Letter Queue",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node test/validate.js"
+  },
+  "bin": {
+    "queuectl": "./cli.js"
+  },
+  "keywords": ["queue", "jobs", "cli", "background-jobs"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1"
+  }
+}
